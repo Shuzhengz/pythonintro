@@ -1,2 +1,2 @@
-# pythonintro
+# Pythonintro
 Introduction to Python

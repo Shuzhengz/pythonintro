@@ -9,5 +9,5 @@ if x >= 21:
     print("you are an adult. ")
 if x >= 35:
     print("You can become a president. ")
-else:
+elif x <= 13:
     print("You can't do anything. ") 

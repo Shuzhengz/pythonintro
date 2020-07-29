@@ -20,5 +20,6 @@ for idx in prime:
     if idx > Prime_Max:
         Prime_Max = idx
 
+# The The maximum prime for the given number is:  6857
 print("The maximum prime for number " + str(GivenNumber) + " is:  " + str(Prime_Max))
 

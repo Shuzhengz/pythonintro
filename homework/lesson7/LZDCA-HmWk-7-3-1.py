@@ -9,9 +9,6 @@ Sum_Multiples = 0
 idx = 1
 UpperBond = 1000
 
-
-print("START")
-
 #while idx < 30 and (((idx % 3) != 0) or ((idx % 5) != 0)):
 while idx < UpperBond :
     if (((idx % 3) == 0) or ((idx % 5) == 0)):

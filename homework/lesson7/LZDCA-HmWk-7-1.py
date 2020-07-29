@@ -16,13 +16,6 @@ print(My_List)
 print(My_List[iCnt-1])    
 
 
-#
-#My_List = ["I ", "am ", "a ", "nice ", "person."]
-#print(len(My_List))
-#print(My_List)
-#print(My_List[3])
-#
-
 #r = range(1, iCnt+1)
 print(len(My_List))
 print(iCnt)

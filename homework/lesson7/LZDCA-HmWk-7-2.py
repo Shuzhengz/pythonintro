@@ -18,3 +18,6 @@ while idx < n:
 # The original array and reversed array are:
 print("the original array is:    ", end = ' '),  print(My_Arr)
 print("the reversed array is:    ", end = ' '),  print(New_Arr) 
+
+# Note to Tom:
+# Hi, Tom, I am not sure whether I did it as you required to do, since I don't quite understand the "Hint"

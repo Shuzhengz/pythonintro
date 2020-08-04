@@ -10,33 +10,15 @@ class Robot:
 
     def cube_gone(self, gone):
         self.cube -= gone
+
     def arm_height(self, arm_up):
         self.arm_pos += arm_up
 
     def cube_in_arm(self, cube_in_hands):
-        if self.cube == 0:
-            if self.pos == 3:
-                if self.arm_pos == 0:
-                    self.cube += cube_in_hands
-                else:
-                    print("You are not in the right ar hieght. ")
-            else:
-                print("You are not in postion to pick up the cube. ")
-        else:
-            print("You have a cube already. ")
+        self.cube += cube_in_hands
 
     def points(self, add_points):
-        if self.cube == 1:
-            if self.pos == 7:
-                if self.arm_pos == 10:
-                    self.score += add_points
-                else:
-                    print("You arm is not high enough. ")
-            else:
-                print("You did not reach the scoreing point. ")
-        else:
-            print("You don't have a cube. ")
-
+        self.score += add_points
 
 my_robot = Robot(0, 0, 0, 0)
 while my_robot.score != 15:
